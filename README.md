@@ -31,6 +31,26 @@ That screenshot is fake, by the way. I never reached 2048 :smile:
 
 ## Contributing
 Changes and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into `master`! If you can, please make sure the game fully works before sending the PR, as that will help speed up the process.
+# Deploying 2048 Game on AWS
+
+This repository provides a step-by-step guide for deploying a Dockerized version of the 2048 game on AWS Elastic Beanstalk, making it accessible via a custom domain.
+
+## Repository
+
+You can find the code and additional resources at [Deploying-2048-game-AWS](https://github.com/andrewsrio2001/Deploying-2048-game-AWS.git).
+
+## Prerequisites
+
+- **Docker**: Ensure Docker is installed on your local machine.
+- **AWS CLI**: Install the AWS Command Line Interface for managing AWS services.
+- **AWS Account**: Set up an AWS account with appropriate IAM roles.
+
+## Steps to Deploy
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/andrewsrio2001/Deploying-2048-game-AWS.git
+cd Deploying-2048-game-AWS
 
 👤 Author
 This project was created by M. Andrews.
